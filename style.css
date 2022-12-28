@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(212, 45%, 89%);
+}
+
+.box {
+    background-color: hsl(0, 0%, 100%);
+    width: 240px;
+    height: auto;
+    margin: auto;
+    margin-top: 100px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.qrcode {
+    display: block;
+    height: 220px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 920;
+    font-size: 14px;
+    letter-spacing: -0.5px;
+    margin-top: 25px;
+    text-align: center;
+    opacity: 0.7;
+}
+
+p {
+    font-family: outfit;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 25px;
+    font-size: 15px;
+    opacity: .4;
+}
